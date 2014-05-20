@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Metta Living Main!</title>
+
+<link href="mettalivingstylemain.css" rel="stylesheet" type="text/css" />
+<script src="jquery.min.js"></script>
+<script src="jquery.cross-slide.min.js"></script>
+
+<script>
+ $(function() {
+    $('#placeholder').crossSlide({
+      sleep: 2,
+      fade: 1
+    }, [
+      { src: 'img/ml-main1.jpg' },
+      { src: 'img/ml-main2.jpg' },
+      { src: 'img/ml-main3.jpg' }
+    ])
+  });
+
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$(".trigger").click(function(){
+		$(".panel").toggle("fast");
+		$(this).toggleClass("active");
+		return false;
+	});
+});
+</script>
+
+
+</head>
+
+<body>
+<div id="container">
+	<div id="sidebar">
+    <div id="panel"><div class="paneltext"><a href="mettaliving_main.html"><img src="img/ml-sidebarlogo.png" width="152" height="50" border="0" /></a><p>"Metta Living"-Living with the simple virtue of metta (Pali for denoting loving-kindness) allows us to see the world from a different light.  Making shifts in your life, whether they are subtle or grand, all begin with the right intention. Setting the intention to live harmoniously in our body, home, and spirit, supports us in the cultivation of inner peace.</p>
+<p><strong>Find your sanctuary <br />and share the peace<strong>.</p>
+    </div>
+    <div class="joinup">join the mailing list</div>
+    </div>	
+    </div>   
+    
+  <div id="banner"><a href="mettaliving_main.html"><img src="img/ml-bannerlogo.png" width="679" height="77" border="0" /></a></div>
+    
+    <div id="navbar"><a href="mettaliving_body.html"><img src="img/body-link.jpg" /></a><a href="mettaliving_home.html"><img src="img/home-link.jpg" /></a><a href="mettaliving_spirit.html"><img src="img/spirit-link.jpg" /></a>
+	</div>
+    
+    <div id="placeholder">
+    </div>
+    
+ <div id="footer"><div class="foot">© 2012 Metta Living - Find Your Sanctuary ::: Carolyn Schmitz, Founder ::: Providence, RI ::: Contact ::: Website: Marta Ruiz</div></div>
+   
+
+
+
+
+</div>
+
+
+
+
+
+</body>
+</html>

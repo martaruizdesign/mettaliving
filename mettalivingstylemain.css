@@ -1,0 +1,260 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body  {
+font-family: Helvetica, sans-serif;
+font-size:11px;
+font-style:normal;
+margin: 0px; 
+margin-bottom:30px;
+padding: 0px;
+color: #333333;
+background-color:#58595B;
+text-align:center;
+}
+
+
+/* CONTAINER */ 
+#container  {
+width: 1024px;
+height: 798px;
+text-align:left;
+padding:0px;
+margin: 0 auto; 
+margin-top: 0px;
+background-color:#ffffff;
+}
+
+
+/*SIDEBAR LEFT*/
+#sidebar {
+width: 214px;
+height:798px;
+background-color:#ffffff;
+padding:0;
+margin: 0;
+float:left;
+
+}
+
+#panel {
+width: 192px;
+height:798px;
+background-color: #dce8ec;
+margin:0 11px 0 11px;
+padding: 0;
+}
+
+.paneltext {
+font-family: Helvetica, sans-serif;
+font-size:13px;
+font-weight:400;
+margin: 0px; 
+padding-top: 115px;
+padding-left:15px;
+width: 162px;
+color: #006171;
+text-align:left;
+line-height:155%;
+}
+.joinup {
+font-family: Helvetica, sans-serif;
+font-size:12px;
+font-style:normal;
+font-weight:400;
+margin: 0px; 
+padding-top: 50px;
+padding-left:15px;
+width: 162px;
+color: #333333;
+text-align:left;
+}
+
+a.join{
+font-family: Helvetica, sans-serif;
+text-transform:lowercase;
+font-size:11px;
+font-style:normal;
+font-weight:800;
+background-color:#006171;
+color:#fff;
+padding:5px;
+text-decoration:none;
+text-align:center;
+}
+
+a:hover.join {
+font-family: Helvetica, sans-serif;
+font-size:11px;
+font-style:normal;
+font-weight:800;
+color:#fff;
+text-decoration:none;
+background-color:#b0bc25;
+text-align:center;
+}
+
+/*LINKS*/
+a {
+font-family: Helvetica, sans-serif;
+font-size:12px;
+font-weight: normal;
+color:#006171;
+}
+a:hover {
+font-family: Helvetica, sans-serif;
+font-size:12px;
+font-weight: normal;
+color:#b0bc25;
+}
+
+
+/* BANNERS */ 
+
+#banner {
+width: 809px;
+height:77px;
+background-color:#ffffff;
+margin:0px;
+padding:0px;
+float: right;
+}
+
+/* NAVBAR */ 
+
+#navbar {
+width: 809px;
+height:25px;
+background-color:#ffffff;
+margin:0px;
+padding:0px;
+float: right;
+border-bottom:  dashed 0px #CCCCCC;
+}
+
+
+/* PLACEHOLDER */ 
+
+#placeholder {
+width: 809px;
+height:601px;
+background-color:#FFF;
+margin:0px;
+padding:0px;
+float: right;
+}
+
+
+/* FOOTER */
+ 
+#footer {
+width: 809px;
+height:90px;
+background-color: #ffffff;
+margin:0px;
+padding:0px;
+float: right;
+border-top: dashed thin #CCCCCC;
+}
+
+.foot {
+font-family: Helvetica, sans-serif;
+font-size:12px;
+font-weight: normal;
+text-align: center;
+color:#58595B;
+margin:0px;
+padding-top:30px;
+}
+
+/* BIO PANEL */
+
+.biopanel {
+position: fixed;
+top: 10px;
+display: none;
+background: #dce8ec;
+border:1px solid #ffffff;
+-moz-border-radius-topright: 10px;
+-webkit-border-top-right-radius: 10px;
+-moz-border-radius-bottomright: 10px;
+-webkit-border-bottom-right-radius: 20px;
+width: 340px;
+height: auto;
+padding: 30px 30px 30px 200px;
+filter: alpha(opacity=85);
+opacity: .95;
+}
+
+.biopanel p{
+margin: 0 0 15px 0;
+padding: 0;
+color: #000000;
+font:Verdana, Geneva, sans-serif;
+font-size:14px;
+}
+
+.biopanel a, .biopanel a:visited{
+margin: 0;
+padding: 0;
+color:#f0f2d4;
+text-decoration: none;
+border-bottom: 1px solid #9FC54E;
+}
+
+.biopanel a:hover, .biopanel a:visited:hover{
+margin: 0;
+padding: 0;
+color: #ffffff;
+text-decoration: none;
+border-bottom: 1px solid #ffffff;
+}
+
+a.trigger{
+position: relative;
+text-decoration: none;
+top: 10px; 
+font-size: 12px;
+font-family:Verdana, Geneva, sans-serif;
+font-weight:bold;
+text-align:center;
+text-transform:uppercase;
+color:#006171;
+padding-right: 10px;
+padding-left: 10px;
+padding-top:40px;
+width:120px;
+background:#f0f2d4 url(images/plus.png) 52% 20% no-repeat;
+display: block;
+}
+
+a.trigger:hover{
+position: relative;
+text-decoration: none;
+top: 10px; 
+font-size: 12px;
+font-family:Verdana, Geneva, sans-serif;
+text-align:center;
+text-transform:uppercase; 
+color:#f16032;
+padding-left: 10px;
+padding-right: 10px;
+padding-top:40px;
+width:120px;
+background:#f0f2d4 url(images/plus.png) 52% 20% no-repeat;
+display: block;
+}
+
+a.active.trigger {
+background: #dce8ec url(images/minus.png) 52% 20% no-repeat;
+border-left:#FFF 1px solid;
+}
+
+.img {
+	float:right;
+	padding-left:5px;
+	padding-bottom:5px;
+	margin: 0px;
+	}
+
+
